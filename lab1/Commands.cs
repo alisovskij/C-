@@ -25,6 +25,8 @@ public static class CommandHandler
             case "mode" when parts.Length > 1:
                 FindMostCommonAminoAcid(output, parts[1], allData);
                 break;
+            default:
+                output.WriteLine("Invalid command");
         }
 
         commandCounter++;
