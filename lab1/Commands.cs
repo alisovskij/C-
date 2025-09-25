@@ -4,6 +4,42 @@ namespace Lab1;
 
 public static class CommandHandler
 {
+
+    static string symbols = "ACDEFGHIKLMNPQRSTVWY";
+
+    public static bool Checker(string aminoacid, StreamWriter? output)
+{
+    if (string.IsNullOrEmpty(aminoacid))
+    {
+        if (output != null)
+        {
+            output.WriteLine("Аминокислотная строка пуста или null.");
+        }
+        else
+        {
+            Console.WriteLine("Аминокислотная строка пуста или null.");
+        }
+        return false;
+    }
+
+    foreach (char symbol in aminoacid)
+    {
+        if (!symbols.Contains(symbol.ToString()))
+        {
+            if (output != null)
+            {
+                output.WriteLine($"Недопустимый символ: {symbol}");
+            }
+            else
+            {
+                Console.WriteLine($"Недопустимый символ: {symbol}");
+            }
+            return false;
+        }
+    }
+    return true;
+}
+
     public static void ExecuteCommand(StreamWriter output, string commandLine, List<GeneticData> allData, ref int commandCounter)
     {
         var cleanLine = commandLine.Trim();
@@ -27,6 +63,7 @@ public static class CommandHandler
                 break;
             default:
                 output.WriteLine("Invalid command");
+                break;
         }
 
         commandCounter++;
@@ -97,21 +134,49 @@ public static class CommandHandler
         output.WriteLine($"amino-acid occurs: {mostCommon.AminoAcid} {mostCommon.Count}");
     }
 
-    public static List<GeneticData> LoadGeneticData(string path)
+    public static List<GeneticData> LoadGeneticData(string path){
+
+    var result = new List<GeneticData>();
+    int lineNumber = 0;
+
+    foreach (var line in File.ReadLines(path))
     {
-        return File.ReadLines(path)
-            .Where(line => !string.IsNullOrWhiteSpace(line))
-            .Select(line => line.Split('\t'))
-            .Where(parts => parts.Length >= 3)
-            .Select(parts => new GeneticData
-            {
-                protein = parts[0],
-                organism = parts[1],
-                amino_acids = DecodeRLE(parts[2])
-            })
-            .ToList();
+        lineNumber++;
+        if (string.IsNullOrWhiteSpace(line)) continue;
+
+        var parts = line.Split('\t');
+        if (parts.Length < 3)
+        {
+            Console.WriteLine($"Предупреждение: строка {lineNumber} содержит меньше 3 колонок: {line}");
+            continue;
+        }
+
+        var aminoAcidsCompressed = parts[2];
+
+        if (string.IsNullOrWhiteSpace(aminoAcidsCompressed))
+        {
+            Console.WriteLine($"Предупреждение: строка {lineNumber} содержит пустую аминокислотную последовательность.");
+            continue;
+        }
+
+        var aminoAcidsDecoded = DecodeRLE(aminoAcidsCompressed);
+
+        if (!Checker(aminoAcidsDecoded, null))
+        {
+            Console.WriteLine($"Ошибка в строке {lineNumber}: недопустимая аминокислотная последовательность: {aminoAcidsDecoded}");
+            continue;
+        }
+
+        result.Add(new GeneticData
+        {
+            protein = parts[0],
+            organism = parts[1],
+            amino_acids = aminoAcidsDecoded
+        });
     }
-    
+
+    return result;
+}
     
     private static string DecodeRLE(string compressed)
     {

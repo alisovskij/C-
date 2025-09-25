@@ -12,3 +12,4 @@
 /home/artem/labs/3 sem/c #/lab1/obj/Debug/net8.0/lab1.pdb
 /home/artem/labs/3 sem/c #/lab1/obj/Debug/net8.0/lab1.genruntimeconfig.cache
 /home/artem/labs/3 sem/c #/lab1/obj/Debug/net8.0/ref/lab1.dll
+/home/artem/labs/3 sem/c #/lab1/obj/Debug/net8.0/lab1.sourcelink.json
