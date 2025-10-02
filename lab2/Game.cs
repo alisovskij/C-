@@ -129,7 +129,7 @@ public class Game
 
         if (_mouse.CurrentState == State.Loser)
         {
-            writer.WriteLine($"Mouse caught at: {_mouse.Location}");
+            writer.WriteLine($"Mouse caught at: {_mouse.Location,2}");
         }
         else
         {

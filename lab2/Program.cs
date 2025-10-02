@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Game.InputFile = "2.ChaseData.txt";
+        Game.InputFile = "1.ChaseData.txt";
         Game.OutputFile = "PursuitLog.txt";
 
         int boardSize = int.Parse(File.ReadLines(Game.InputFile).First());
