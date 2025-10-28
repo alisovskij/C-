@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sentence>
+    <Word Value="Первое" />
+    <Word Value="предложение" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Второе" />
+    <Word Value="предложение" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Третье" />
+    <Word Value="предложение" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Абзац" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Mary" />
+    <Word Value="had" />
+    <Word Value="a" />
+    <Word Value="little" />
+    <Word Value="lamb" />
+  </Sentence>
+  <Sentence>
+    <Word Value="It" />
+    <Word Value="was" />
+    <Word Value="white" />
+    <Word Value="as" />
+    <Word Value="snow" />
+  </Sentence>
+</Text>
