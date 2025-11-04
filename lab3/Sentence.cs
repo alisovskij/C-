@@ -9,22 +9,24 @@ public class Sentence
 {
     [XmlElement("Word", typeof(Word))]
     [XmlElement("Punctuation", typeof(Punctuation))]
-    public List<object> Tokens { get; set; }
+    public List<Token> Tokens { get; set; }
 
     public Sentence()
     {
-        Tokens = new List<object>();
+        Tokens = new List<Token>();
     }
 
-    public void AddToken(object token)
+    public void AddToken(Token token)
     {
-        if (token is Word || token is Punctuation)
+        if (token != null)
         {
             Tokens.Add(token);
         }
     }
 
     public int WordCount => Tokens.OfType<Word>().Count();
+
+    public int TokenCount => Tokens.Count;
 
     public int Length
     {
@@ -33,10 +35,7 @@ public class Sentence
             int length = 0;
             foreach (var token in Tokens)
             {
-                if (token is Word word)
-                    length += word.Length;
-                else if (token is Punctuation punct)
-                    length += punct.Symbol.Length;
+                length += token.Length;
             }
             // Добавляем пробелы между словами
             int spaces = Math.Max(0, Tokens.Count - 1);

@@ -22,19 +22,25 @@ public class Text
         Sentences.Add(sentence);
     }
 
-    // 1. Вывести все предложения в порядке возрастания количества слов
+    // Подсчет общего количества токенов в тексте
+    public int TokenCount => Sentences.Sum(s => s.TokenCount);
+
+    // Подсчет общего количества слов в тексте
+    public int WordCount => Sentences.Sum(s => s.WordCount);
+
+    // Вывести все предложения в порядке возрастания количества слов
     public List<Sentence> GetSentencesSortedByWordCount()
     {
         return Sentences.OrderBy(s => s.WordCount).ToList();
     }
 
-    // 2. Вывести все предложения в порядке возрастания длины предложения
+    // Вывести все предложения в порядке возрастания длины предложения
     public List<Sentence> GetSentencesSortedByLength()
     {
         return Sentences.OrderBy(s => s.Length).ToList();
     }
 
-    // 3. Найти слова заданной длины в вопросительных предложениях (без повторов)
+    // Найти слова заданной длины в вопросительных предложениях (без повторов)
     public List<string> FindWordsInQuestions(int length)
     {
         return Sentences
@@ -45,7 +51,7 @@ public class Text
             .ToList();
     }
 
-    // 4. Удалить из текста все слова заданной длины, начинающиеся с согласной
+    // Удалить из текста все слова заданной длины, начинающиеся с согласной
     public void RemoveConsonantWordsOfLength(int length)
     {
         foreach (var sentence in Sentences)
@@ -54,7 +60,7 @@ public class Text
         }
     }
 
-    // 5. Заменить слова заданной длины в указанном предложении
+    // Заменить слова заданной длины в указанном предложении
     public void ReplaceWordsInSentence(int sentenceIndex, int wordLength, string replacement)
     {
         if (sentenceIndex >= 0 && sentenceIndex < Sentences.Count)
@@ -63,7 +69,7 @@ public class Text
         }
     }
 
-    // 6. Удалить стоп-слова из текста
+    // Удалить стоп-слова из текста
     public void RemoveStopWords(string stopWordsFilePath)
     {
         if (!File.Exists(stopWordsFilePath))
@@ -83,7 +89,7 @@ public class Text
         }
     }
 
-    // 7. Экспортировать в XML
+    // Экспортировать в XML
     public void ExportToXml(string filePath)
     {
         XmlSerializer serializer = new XmlSerializer(typeof(Text));

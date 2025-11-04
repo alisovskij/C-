@@ -7,9 +7,9 @@ using System.Text.RegularExpressions;
 public class TextParser
 {
     // Знаки препинания
-    private static readonly string PunctuationMarks = ".!?,;:()[]\"'«»—-";
+    private static readonly string PunctuationMarks = ".!?,;:()\"'«»—-";
 
-    // Парсер 2: Читаем текст и разбиваем на токены с помощью regex
+    // Читаем текст и разбиваем на токены с помощью regex
     public static Text ParseFile(string filePath)
     {
         string content = File.ReadAllText(filePath, Encoding.UTF8);
@@ -74,7 +74,7 @@ public class TextParser
         return token.Length == 1 && PunctuationMarks.Contains(token);
     }
 
-    // Старый метод для обратной совместимости
+    // Метод для обратной совместимости
     public static string[] ParseTextToSentences(string filePath)
     {
         Text text = ParseFile(filePath);

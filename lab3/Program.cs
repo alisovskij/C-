@@ -7,8 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
+
         Console.OutputEncoding = Encoding.UTF8;
-        Console.WriteLine("=== Лабораторная работа 3: Токенизация текста ===\n");
 
         try
         {
@@ -19,10 +19,11 @@ public class Program
             Text text = TextParser.ParseFile(filename);
 
             Console.WriteLine($"Исходный текст ({text.Sentences.Count} предложений):");
+            Console.WriteLine($"Всего токенов: {text.TokenCount}, слов: {text.WordCount}");
             Console.WriteLine(text.ToStringNumbered());
             Console.WriteLine();
 
-            // Задание 1: Сортировка по количеству слов
+            // Сортировка по количеству слов
             Console.WriteLine("2. Предложения в порядке возрастания количества слов:");
             var sortedByWords = text.GetSentencesSortedByWordCount();
             for (int i = 0; i < sortedByWords.Count; i++)
@@ -31,7 +32,7 @@ public class Program
             }
             Console.WriteLine();
 
-            // Задание 2: Сортировка по длине
+            // Сортировка по длине
             Console.WriteLine("3. Предложения в порядке возрастания длины:");
             var sortedByLength = text.GetSentencesSortedByLength();
             for (int i = 0; i < sortedByLength.Count; i++)
@@ -40,7 +41,7 @@ public class Program
             }
             Console.WriteLine();
 
-            // Задание 3: Слова в вопросительных предложениях
+            // Слова в вопросительных предложениях
             int wordLength = 4;
             Console.WriteLine($"4. Слова длиной {wordLength} в вопросительных предложениях:");
             var wordsInQuestions = text.FindWordsInQuestions(wordLength);
@@ -57,7 +58,7 @@ public class Program
             }
             Console.WriteLine();
 
-            // Задание 4: Удаление слов, начинающихся с согласной
+            // Удаление слов, начинающихся с согласной
             Text textCopy = TextParser.ParseFile(filename); // Создаем копию
             int lengthToRemove = 3;
             Console.WriteLine($"5. Удаляем слова длиной {lengthToRemove}, начинающиеся с согласной...");
@@ -66,9 +67,9 @@ public class Program
             Console.WriteLine(textCopy.ToStringNumbered());
             Console.WriteLine();
 
-            // Задание 5: Замена слов в предложении
+            // Замена слов в предложении
             Text textCopy2 = TextParser.ParseFile(filename);
-            int sentenceIndex = 0;
+            int sentenceIndex = 3;
             int lengthToReplace = 5;
             string replacement = "XXXXX";
             Console.WriteLine($"6. Заменяем слова длиной {lengthToReplace} в предложении {sentenceIndex + 1} на '{replacement}':");
@@ -76,7 +77,7 @@ public class Program
             Console.WriteLine($"   {textCopy2.Sentences[sentenceIndex]}");
             Console.WriteLine();
 
-            // Задание 6: Удаление стоп-слов
+            // Удаление стоп-слов
             string stopWordsFile = "stopwords_ru.txt";
             if (File.Exists(stopWordsFile))
             {
@@ -92,14 +93,31 @@ public class Program
                 Console.WriteLine($"7. Файл стоп-слов '{stopWordsFile}' не найден, пропускаем...\n");
             }
 
-            // Задание 7: Экспорт в XML
+            // Создаем финальную версию текста с ВСЕМИ модификациями для экспорта
+            Console.WriteLine("8. Создаем финальную версию текста с модификациями для экспорта...");
+            Text finalText = TextParser.ParseFile(filename);
+
+            // Применяем все модификации последовательно
+            finalText.RemoveConsonantWordsOfLength(lengthToRemove);
+            finalText.ReplaceWordsInSentence(sentenceIndex, lengthToReplace, replacement);
+
+            if (File.Exists(stopWordsFile))
+            {
+                finalText.RemoveStopWords(stopWordsFile);
+            }
+
+            Console.WriteLine("   Финальный текст после всех модификаций:");
+            Console.WriteLine(finalText.ToStringNumbered());
+            Console.WriteLine();
+
+            // Экспорт в XML
             string xmlFile = "output.xml";
-            Console.WriteLine($"8. Экспортируем текст в XML файл '{xmlFile}'...");
-            text.ExportToXml(xmlFile);
+            Console.WriteLine($"9. Экспортируем модифицированный текст в XML файл '{xmlFile}'...");
+            finalText.ExportToXml(xmlFile);
             Console.WriteLine("   Успешно экспортировано!");
             Console.WriteLine();
 
-            Console.WriteLine("=== Все задания выполнены! ===");
+            Console.WriteLine("Все задания выполнены!");
         }
         catch (FileNotFoundException ex)
         {

@@ -2,7 +2,7 @@ using System;
 using System.Xml.Serialization;
 
 [Serializable]
-public class Punctuation
+public class Punctuation : Token
 {
     [XmlAttribute]
     public string Symbol { get; set; }
@@ -13,6 +13,8 @@ public class Punctuation
     {
         Symbol = symbol;
     }
+
+    public override int Length => Symbol?.Length ?? 0;
 
     public bool IsEndOfSentence()
     {

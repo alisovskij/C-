@@ -2,7 +2,7 @@ using System;
 using System.Xml.Serialization;
 
 [Serializable]
-public class Word
+public class Word : Token
 {
     [XmlAttribute]
     public string Value { get; set; }
@@ -14,7 +14,7 @@ public class Word
         Value = value;
     }
 
-    public int Length => Value?.Length ?? 0;
+    public override int Length => Value?.Length ?? 0;
 
     public bool StartsWithConsonant()
     {

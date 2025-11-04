@@ -3,30 +3,34 @@
   <Sentence>
     <Word Value="Первое" />
     <Word Value="предложение" />
+    <Punctuation Symbol="." />
   </Sentence>
   <Sentence>
     <Word Value="Второе" />
     <Word Value="предложение" />
+    <Punctuation Symbol="!" />
   </Sentence>
   <Sentence>
     <Word Value="Третье" />
     <Word Value="предложение" />
+    <Punctuation Symbol="?" />
   </Sentence>
   <Sentence>
-    <Word Value="Абзац" />
+    <Word Value="XXXXX" />
+    <Punctuation Symbol="." />
   </Sentence>
   <Sentence>
     <Word Value="Mary" />
-    <Word Value="had" />
     <Word Value="a" />
     <Word Value="little" />
     <Word Value="lamb" />
+    <Punctuation Symbol="." />
   </Sentence>
   <Sentence>
     <Word Value="It" />
-    <Word Value="was" />
     <Word Value="white" />
     <Word Value="as" />
     <Word Value="snow" />
+    <Punctuation Symbol="." />
   </Sentence>
 </Text>
