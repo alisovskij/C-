@@ -2,15 +2,20 @@ Cat and Mouse
 
 Cat Mouse  Distance
 -------------------
- ??     2          
-  6    11         5
- 12    11         1
- 12     5         7
- 12    11         1
+ ??    15          
+ ??    14          
+ ??    17          
+ ??    17          
+  3    11         8
+  3    13        10
+  4    13         9
+ 10    13         3
+ 10     2         8
+Mouse escaped!
 -------------------
 
 
 Distance traveled:   Mouse    Cat
-                        28      7
+                        26      7
 
-Mouse caught at: 11
+Mouse evaded Cat

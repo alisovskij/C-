@@ -5,7 +5,8 @@ public enum State
     Playing,
     Winner,
     Loser,
-    NotInGame
+    NotInGame,
+    MouseEscaped
 }
 
 public class Player
@@ -23,7 +24,7 @@ public class Player
         DistanceTraveled = 0;
     }
 
-    public void Move(int steps, int boardSize)
+    public void Move(int steps, int boardSize, bool is_mouse)
     {
         if (CurrentState == State.NotInGame)
         {
@@ -36,6 +37,12 @@ public class Player
             Location = newLocation;
             DistanceTraveled += Math.Abs(steps);
         }
+
+        if (is_mouse && Location == 1)
+        {
+            CurrentState = State.MouseEscaped;
+        }
+
     }
 
     public void SetFinalState(State finalState)

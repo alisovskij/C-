@@ -35,6 +35,12 @@ public class Game
         foreach (var line in commands)
         {
             if (_currentState == GameState.End) break;
+
+            if (_mouse.CurrentState == State.MouseEscaped)
+            {
+                _printLog.Add("Mouse escaped!");
+                break;
+            }
             
             var parts = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             var command = parts[0][0];
@@ -64,11 +70,11 @@ public class Game
     {
         if (player == 'C')
         {
-            _cat.Move(steps, _boardSize);
+            _cat.Move(steps, _boardSize, false);
         }
         else
         {
-            _mouse.Move(steps, _boardSize);
+            _mouse.Move(steps, _boardSize, true);
         }
 
         CheckForCatch();
