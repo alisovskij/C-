@@ -3,7 +3,6 @@ using System.Xml.Serialization;
 
 [Serializable]
 [XmlInclude(typeof(Word))]
-[XmlInclude(typeof(Punctuation))]
 public abstract class Token
 {
     [XmlIgnore]

@@ -1,10 +1,9 @@
 using System;
 using System.Xml.Serialization;
 
-[Serializable]
 public class Punctuation : Token
-{
-    [XmlAttribute]
+{   
+    [XmlIgnore]
     public string Symbol { get; set; }
 
     public Punctuation() { }

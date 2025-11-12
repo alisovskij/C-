@@ -92,11 +92,18 @@ public class Text
     // Экспортировать в XML
     public void ExportToXml(string filePath)
     {
-        XmlSerializer serializer = new XmlSerializer(typeof(Text));
+        try{
+            XmlSerializer serializer = new XmlSerializer(typeof(Text));
         using (StreamWriter writer = new StreamWriter(filePath, false, Encoding.UTF8))
         {
             serializer.Serialize(writer, this);
         }
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine(e);
+        }
+        
     }
 
     public static Text ImportFromXml(string filePath)

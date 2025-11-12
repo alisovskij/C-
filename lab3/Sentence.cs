@@ -7,9 +7,15 @@ using System.Xml.Serialization;
 [Serializable]
 public class Sentence
 {
-    [XmlElement("Word", typeof(Word))]
-    [XmlElement("Punctuation", typeof(Punctuation))]
+    [XmlIgnore]
     public List<Token> Tokens { get; set; }
+
+    [XmlElement("Word")]
+    public List<Word> Words
+    {
+        get => Tokens.OfType<Word>().ToList();
+        set => Tokens = value?.Cast<Token>().ToList() ?? new List<Token>();
+    }
 
     public Sentence()
     {

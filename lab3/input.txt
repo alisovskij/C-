@@ -1,2 +1,119 @@
-Первое предложение.Второе предложение!Третье предложение?
-Абзац.Mary had a little lamb.It was white as snow.
+    Солнце медленно поднималось над горизонтом, окрашивая небо в алые и золотые тона.
+
+    "Проснись! – сказал он тихо. – Сегодня будет удивительный день".
+
+    Он задумался на мгновение: а правильный ли путь он выбрал?
+
+    Осторожно: мокрая дорога, крутой поворот и ограниченная видимость.
+
+    В корзине лежало яблоко, груша, банан... и что-то еще, завернутое в бумагу.
+
+    Кошка – это грациозное, независимое и порой загадочное создание.
+
+    Неужели ты действительно веришь в эту нелепую, старую сказку?
+
+    Я ждал его час, два, три... но он так и не пришел.
+
+    Пожалуйста, купи хлеба, молока, сыра и, если будут свежие, овощей.
+
+    Ах! Какой прекрасный, какой восхитительный вид открывался с этой горы!
+
+    Он был умным, талантливым, трудолюбивым — иными словами, идеальным кандидатом.
+
+    "Я не понимаю, – прошептала она, – почему ты так поступил?"
+
+    Наконец-то дождь кончился; на небе одна за другой появились звезды.
+
+    Все куда-то бежали, торопились, кричали — царил полный хаос.
+
+    О, я чуть не забыл передать тебе этот важный конверт!
+
+    Его комната была завалена книгами: романами, учебниками, сборниками стихов.
+
+    "Берегись!" – крикнул кто-то, но было уже поздно.
+
+    Она пришла домой уставшая, промокшая и, что самое главное, расстроенная.
+
+    Что же мне теперь делать? Как исправить эту ужасную ошибку?
+
+    Он взял документы, паспорт, билеты... и вдруг остановился.
+
+    Да, я абсолютно согласен с вашим предложением; оно гениально!
+
+    Ветер завывал, дождь стучал по крыше, ставни хлопали — казалось, весь мир сошел с ума.
+
+    Ну и дела... Тысячи людей, машин, огней — настоящий мегаполис!
+
+    "Ты должен выбрать: либо остаться здесь, либо уехать навсегда".
+
+    Мой компьютер (которому, кстати, уже пять лет) снова завис.
+
+    Ура! Мы сделали это; мы прошли в финал соревнований!
+
+    Ее голос – чистый, звонкий и нежный – завораживал всех вокруг.
+
+    Он спросил меня, знаю ли я дорогу до ближайшей станции.
+
+    Нет... это невозможно! Я отказываюсь в это верить!
+
+    И вот, после долгого пути, они увидели его: старый, заброшенный замок.
+
+    The sun was slowly rising above the horizon, painting the sky in scarlet and gold.
+
+    "Wake up!" he said quietly. "Today will be an amazing day."
+
+    He thought for a moment: was he on the right path?
+
+    Caution: wet road, sharp turn, and limited visibility.
+
+    In the basket lay an apple, a pear, a banana... and something else, wrapped in paper.
+
+    A cat is a graceful, independent, and sometimes mysterious creature.
+
+    Do you really believe in that absurd, old fairy tale?
+
+    I waited for him for one hour, two, three... but he never came.
+
+    Please, buy some bread, milk, cheese, and, if they are fresh, vegetables.
+
+    Oh! What a beautiful, what a magnificent view from this mountain!
+
+    He was smart, talented, hardworking—in other words, the perfect candidate.
+
+    "I don't understand," she whispered, "why did you do that?"
+
+    Finally, the rain stopped; stars began to appear one by one in the sky.
+
+    Everyone was running somewhere, rushing, shouting—it was complete chaos.
+
+    Oh, I almost forgot to give you this important envelope!
+
+    His room was cluttered with books: novels, textbooks, poetry collections.
+
+    "Look out!" someone shouted, but it was too late.
+
+    She came home tired, wet, and, most importantly, upset.
+
+    What should I do now? How can I fix this terrible mistake?
+
+    He took the documents, his passport, the tickets... and suddenly stopped.
+
+    Yes, I absolutely agree with your proposal; it's brilliant!
+
+    The wind was howling, the rain was beating on the roof, the shutters were banging—it seemed the whole world had gone mad.
+
+    Wow... Thousands of people, cars, lights—a real metropolis!
+
+    "You must choose: either stay here, or leave forever."
+
+    My computer (which, by the way, is five years old) froze again.
+
+    Hooray! We did it; we advanced to the competition finals!
+
+    Her voice—pure, resonant, and gentle—captivated everyone around.
+
+    He asked me if I knew the way to the nearest station.
+
+    No... this is impossible! I refuse to believe it!
+
+    And so, after a long journey, they saw it: the old, abandoned castle.

@@ -1,36 +1,608 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sentence>
-    <Word Value="Первое" />
-    <Word Value="предложение" />
-    <Punctuation Symbol="." />
+    <Word Value="Солнце" />
+    <Word Value="медленно" />
+    <Word Value="поднималось" />
+    <Word Value="горизонтом" />
+    <Word Value="окрашивая" />
+    <Word Value="небо" />
+    <Word Value="алые" />
+    <Word Value="золотые" />
+    <Word Value="тона" />
   </Sentence>
   <Sentence>
-    <Word Value="Второе" />
-    <Word Value="предложение" />
-    <Punctuation Symbol="!" />
+    <Word Value="Проснись" />
   </Sentence>
   <Sentence>
-    <Word Value="Третье" />
-    <Word Value="предложение" />
-    <Punctuation Symbol="?" />
+    <Word Value="тихо" />
   </Sentence>
   <Sentence>
     <Word Value="XXXXX" />
-    <Punctuation Symbol="." />
+    <Word Value="удивительный" />
   </Sentence>
   <Sentence>
-    <Word Value="Mary" />
+    <Word Value="задумался" />
+    <Word Value="мгновение" />
+    <Word Value="правильный" />
+    <Word Value="путь" />
+    <Word Value="выбрал" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Осторожно" />
+    <Word Value="мокрая" />
+    <Word Value="дорога" />
+    <Word Value="крутой" />
+    <Word Value="поворот" />
+    <Word Value="ограниченная" />
+    <Word Value="видимость" />
+  </Sentence>
+  <Sentence>
+    <Word Value="корзине" />
+    <Word Value="лежало" />
+    <Word Value="яблоко" />
+    <Word Value="груша" />
+    <Word Value="банан" />
+  </Sentence>
+  <Sentence>
+    <Word Value="завернутое" />
+    <Word Value="бумагу" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Кошка" />
+    <Word Value="грациозное" />
+    <Word Value="независимое" />
+    <Word Value="порой" />
+    <Word Value="загадочное" />
+    <Word Value="создание" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Неужели" />
+    <Word Value="веришь" />
+    <Word Value="нелепую" />
+    <Word Value="старую" />
+    <Word Value="сказку" />
+  </Sentence>
+  <Sentence>
+    <Word Value="ждал" />
+  </Sentence>
+  <Sentence>
+    <Word Value="пришел" />
+  </Sentence>
+  <Sentence>
+    <Word Value="купи" />
+    <Word Value="хлеба" />
+    <Word Value="молока" />
+    <Word Value="сыра" />
+    <Word Value="свежие" />
+    <Word Value="овощей" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Ах" />
+  </Sentence>
+  <Sentence>
+    <Word Value="прекрасный" />
+    <Word Value="восхитительный" />
+    <Word Value="открывался" />
+    <Word Value="горы" />
+  </Sentence>
+  <Sentence>
+    <Word Value="умным" />
+    <Word Value="талантливым" />
+    <Word Value="трудолюбивым" />
+    <Word Value="иными" />
+    <Word Value="словами" />
+    <Word Value="идеальным" />
+    <Word Value="кандидатом" />
+  </Sentence>
+  <Sentence>
+    <Word Value="понимаю" />
+    <Word Value="прошептала" />
+    <Word Value="поступил" />
+  </Sentence>
+  <Sentence>
+    <Word Value="дождь" />
+    <Word Value="кончился" />
+    <Word Value="небе" />
+    <Word Value="одна" />
+    <Word Value="появились" />
+    <Word Value="звезды" />
+  </Sentence>
+  <Sentence>
+    <Word Value="бежали" />
+    <Word Value="торопились" />
+    <Word Value="кричали" />
+    <Word Value="царил" />
+    <Word Value="полный" />
+    <Word Value="хаос" />
+  </Sentence>
+  <Sentence>
+    <Word Value="забыл" />
+    <Word Value="передать" />
+    <Word Value="конверт" />
+  </Sentence>
+  <Sentence>
+    <Word Value="комната" />
+    <Word Value="завалена" />
+    <Word Value="книгами" />
+    <Word Value="романами" />
+    <Word Value="учебниками" />
+    <Word Value="сборниками" />
+    <Word Value="стихов" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Берегись" />
+  </Sentence>
+  <Sentence>
+    <Word Value="крикнул" />
+    <Word Value="поздно" />
+  </Sentence>
+  <Sentence>
+    <Word Value="пришла" />
+    <Word Value="домой" />
+    <Word Value="уставшая" />
+    <Word Value="промокшая" />
+    <Word Value="самое" />
+    <Word Value="главное" />
+    <Word Value="расстроенная" />
+  </Sentence>
+  <Sentence>
+    <Word Value="делать" />
+  </Sentence>
+  <Sentence>
+    <Word Value="исправить" />
+    <Word Value="ужасную" />
+    <Word Value="ошибку" />
+  </Sentence>
+  <Sentence>
+    <Word Value="взял" />
+    <Word Value="документы" />
+    <Word Value="паспорт" />
+    <Word Value="билеты" />
+  </Sentence>
+  <Sentence>
+    <Word Value="остановился" />
+  </Sentence>
+  <Sentence>
+    <Word Value="абсолютно" />
+    <Word Value="согласен" />
+    <Word Value="вашим" />
+    <Word Value="предложением" />
+    <Word Value="гениально" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Ветер" />
+    <Word Value="завывал" />
+    <Word Value="дождь" />
+    <Word Value="стучал" />
+    <Word Value="крыше" />
+    <Word Value="ставни" />
+    <Word Value="хлопали" />
+    <Word Value="казалось" />
+    <Word Value="сошел" />
+    <Word Value="ума" />
+  </Sentence>
+  <Sentence>
+    <Word Value="дела" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Тысячи" />
+    <Word Value="людей" />
+    <Word Value="машин" />
+    <Word Value="огней" />
+    <Word Value="настоящий" />
+    <Word Value="мегаполис" />
+  </Sentence>
+  <Sentence>
+    <Word Value="должен" />
+    <Word Value="выбрать" />
+    <Word Value="либо" />
+    <Word Value="остаться" />
+    <Word Value="либо" />
+    <Word Value="уехать" />
+    <Word Value="навсегда" />
+  </Sentence>
+  <Sentence>
+    <Word Value="компьютер" />
+    <Word Value="которому" />
+    <Word Value="кстати" />
+    <Word Value="завис" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Ура" />
+  </Sentence>
+  <Sentence>
+    <Word Value="сделали" />
+    <Word Value="прошли" />
+    <Word Value="финал" />
+    <Word Value="соревнований" />
+  </Sentence>
+  <Sentence>
+    <Word Value="голос" />
+    <Word Value="чистый" />
+    <Word Value="звонкий" />
+    <Word Value="нежный" />
+    <Word Value="завораживал" />
+  </Sentence>
+  <Sentence>
+    <Word Value="спросил" />
+    <Word Value="знаю" />
+    <Word Value="дорогу" />
+    <Word Value="ближайшей" />
+    <Word Value="станции" />
+  </Sentence>
+  <Sentence />
+  <Sentence>
+    <Word Value="невозможно" />
+  </Sentence>
+  <Sentence>
+    <Word Value="отказываюсь" />
+    <Word Value="верить" />
+  </Sentence>
+  <Sentence>
+    <Word Value="долгого" />
+    <Word Value="пути" />
+    <Word Value="увидели" />
+    <Word Value="старый" />
+    <Word Value="заброшенный" />
+    <Word Value="замок" />
+  </Sentence>
+  <Sentence>
+    <Word Value="slowly" />
+    <Word Value="rising" />
+    <Word Value="above" />
+    <Word Value="horizon" />
+    <Word Value="painting" />
+    <Word Value="in" />
+    <Word Value="scarlet" />
+    <Word Value="and" />
+    <Word Value="gold" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Wake" />
+    <Word Value="up" />
+  </Sentence>
+  <Sentence>
+    <Word Value="he" />
+    <Word Value="said" />
+    <Word Value="quietly" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Today" />
+    <Word Value="will" />
+    <Word Value="be" />
+    <Word Value="an" />
+    <Word Value="amazing" />
+  </Sentence>
+  <Sentence>
+    <Word Value="He" />
+    <Word Value="thought" />
     <Word Value="a" />
-    <Word Value="little" />
-    <Word Value="lamb" />
-    <Punctuation Symbol="." />
+    <Word Value="moment" />
+    <Word Value="he" />
+    <Word Value="on" />
+    <Word Value="right" />
+    <Word Value="path" />
   </Sentence>
   <Sentence>
-    <Word Value="It" />
-    <Word Value="white" />
-    <Word Value="as" />
-    <Word Value="snow" />
-    <Punctuation Symbol="." />
+    <Word Value="Caution" />
+    <Word Value="road" />
+    <Word Value="sharp" />
+    <Word Value="turn" />
+    <Word Value="and" />
+    <Word Value="limited" />
+    <Word Value="visibility" />
+  </Sentence>
+  <Sentence>
+    <Word Value="In" />
+    <Word Value="basket" />
+    <Word Value="an" />
+    <Word Value="apple" />
+    <Word Value="a" />
+    <Word Value="pear" />
+    <Word Value="a" />
+    <Word Value="banana" />
+  </Sentence>
+  <Sentence>
+    <Word Value="and" />
+    <Word Value="something" />
+    <Word Value="else" />
+    <Word Value="wrapped" />
+    <Word Value="in" />
+    <Word Value="paper" />
+  </Sentence>
+  <Sentence>
+    <Word Value="A" />
+    <Word Value="is" />
+    <Word Value="a" />
+    <Word Value="graceful" />
+    <Word Value="independent" />
+    <Word Value="and" />
+    <Word Value="sometimes" />
+    <Word Value="mysterious" />
+    <Word Value="creature" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Do" />
+    <Word Value="you" />
+    <Word Value="really" />
+    <Word Value="believe" />
+    <Word Value="in" />
+    <Word Value="that" />
+    <Word Value="absurd" />
+    <Word Value="old" />
+    <Word Value="fairy" />
+    <Word Value="tale" />
+  </Sentence>
+  <Sentence>
+    <Word Value="I" />
+    <Word Value="waited" />
+    <Word Value="one" />
+    <Word Value="hour" />
+    <Word Value="three" />
+  </Sentence>
+  <Sentence>
+    <Word Value="he" />
+    <Word Value="never" />
+    <Word Value="came" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Please" />
+    <Word Value="some" />
+    <Word Value="bread" />
+    <Word Value="milk" />
+    <Word Value="cheese" />
+    <Word Value="and" />
+    <Word Value="if" />
+    <Word Value="they" />
+    <Word Value="are" />
+    <Word Value="fresh" />
+    <Word Value="vegetables" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Oh" />
+  </Sentence>
+  <Sentence>
+    <Word Value="What" />
+    <Word Value="a" />
+    <Word Value="beautiful" />
+    <Word Value="what" />
+    <Word Value="a" />
+    <Word Value="magnificent" />
+    <Word Value="view" />
+    <Word Value="from" />
+    <Word Value="this" />
+    <Word Value="mountain" />
+  </Sentence>
+  <Sentence>
+    <Word Value="He" />
+    <Word Value="smart" />
+    <Word Value="talented" />
+    <Word Value="hardworking" />
+    <Word Value="in" />
+    <Word Value="other" />
+    <Word Value="words" />
+    <Word Value="perfect" />
+    <Word Value="candidate" />
+  </Sentence>
+  <Sentence>
+    <Word Value="I" />
+    <Word Value="t" />
+    <Word Value="understand" />
+    <Word Value="whispered" />
+    <Word Value="you" />
+    <Word Value="do" />
+    <Word Value="that" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Finally" />
+    <Word Value="rain" />
+    <Word Value="stopped" />
+    <Word Value="stars" />
+    <Word Value="began" />
+    <Word Value="to" />
+    <Word Value="appear" />
+    <Word Value="one" />
+    <Word Value="by" />
+    <Word Value="one" />
+    <Word Value="in" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Everyone" />
+    <Word Value="running" />
+    <Word Value="somewhere" />
+    <Word Value="rushing" />
+    <Word Value="shouting" />
+    <Word Value="it" />
+    <Word Value="complete" />
+    <Word Value="chaos" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Oh" />
+    <Word Value="I" />
+    <Word Value="almost" />
+    <Word Value="forgot" />
+    <Word Value="to" />
+    <Word Value="give" />
+    <Word Value="you" />
+    <Word Value="this" />
+    <Word Value="important" />
+    <Word Value="envelope" />
+  </Sentence>
+  <Sentence>
+    <Word Value="room" />
+    <Word Value="cluttered" />
+    <Word Value="with" />
+    <Word Value="books" />
+    <Word Value="novels" />
+    <Word Value="textbooks" />
+    <Word Value="poetry" />
+    <Word Value="collections" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Look" />
+    <Word Value="out" />
+  </Sentence>
+  <Sentence>
+    <Word Value="someone" />
+    <Word Value="shouted" />
+    <Word Value="it" />
+    <Word Value="late" />
+  </Sentence>
+  <Sentence>
+    <Word Value="came" />
+    <Word Value="home" />
+    <Word Value="tired" />
+    <Word Value="and" />
+    <Word Value="most" />
+    <Word Value="importantly" />
+    <Word Value="upset" />
+  </Sentence>
+  <Sentence>
+    <Word Value="What" />
+    <Word Value="should" />
+    <Word Value="I" />
+    <Word Value="do" />
+  </Sentence>
+  <Sentence>
+    <Word Value="I" />
+    <Word Value="this" />
+    <Word Value="terrible" />
+    <Word Value="mistake" />
+  </Sentence>
+  <Sentence>
+    <Word Value="He" />
+    <Word Value="took" />
+    <Word Value="documents" />
+    <Word Value="passport" />
+    <Word Value="tickets" />
+  </Sentence>
+  <Sentence>
+    <Word Value="and" />
+    <Word Value="suddenly" />
+    <Word Value="stopped" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Yes" />
+    <Word Value="I" />
+    <Word Value="absolutely" />
+    <Word Value="agree" />
+    <Word Value="with" />
+    <Word Value="your" />
+    <Word Value="proposal" />
+    <Word Value="it" />
+    <Word Value="s" />
+    <Word Value="brilliant" />
+  </Sentence>
+  <Sentence>
+    <Word Value="wind" />
+    <Word Value="howling" />
+    <Word Value="rain" />
+    <Word Value="beating" />
+    <Word Value="on" />
+    <Word Value="roof" />
+    <Word Value="shutters" />
+    <Word Value="were" />
+    <Word Value="banging" />
+    <Word Value="it" />
+    <Word Value="seemed" />
+    <Word Value="whole" />
+    <Word Value="world" />
+    <Word Value="gone" />
+  </Sentence>
+  <Sentence />
+  <Sentence>
+    <Word Value="Thousands" />
+    <Word Value="of" />
+    <Word Value="people" />
+    <Word Value="cars" />
+    <Word Value="lights" />
+    <Word Value="a" />
+    <Word Value="real" />
+    <Word Value="metropolis" />
+  </Sentence>
+  <Sentence>
+    <Word Value="You" />
+    <Word Value="must" />
+    <Word Value="choose" />
+    <Word Value="either" />
+    <Word Value="stay" />
+    <Word Value="here" />
+    <Word Value="or" />
+    <Word Value="leave" />
+    <Word Value="forever" />
+  </Sentence>
+  <Sentence>
+    <Word Value="My" />
+    <Word Value="computer" />
+    <Word Value="which" />
+    <Word Value="by" />
+    <Word Value="is" />
+    <Word Value="five" />
+    <Word Value="years" />
+    <Word Value="old" />
+    <Word Value="froze" />
+    <Word Value="again" />
+  </Sentence>
+  <Sentence>
+    <Word Value="Hooray" />
+  </Sentence>
+  <Sentence>
+    <Word Value="We" />
+    <Word Value="it" />
+    <Word Value="we" />
+    <Word Value="advanced" />
+    <Word Value="to" />
+    <Word Value="competition" />
+    <Word Value="finals" />
+  </Sentence>
+  <Sentence>
+    <Word Value="voice" />
+    <Word Value="pure" />
+    <Word Value="resonant" />
+    <Word Value="and" />
+    <Word Value="gentle" />
+    <Word Value="captivated" />
+    <Word Value="everyone" />
+    <Word Value="around" />
+  </Sentence>
+  <Sentence>
+    <Word Value="He" />
+    <Word Value="asked" />
+    <Word Value="me" />
+    <Word Value="if" />
+    <Word Value="I" />
+    <Word Value="knew" />
+    <Word Value="to" />
+    <Word Value="nearest" />
+    <Word Value="station" />
+  </Sentence>
+  <Sentence>
+    <Word Value="No" />
+  </Sentence>
+  <Sentence>
+    <Word Value="this" />
+    <Word Value="is" />
+    <Word Value="impossible" />
+  </Sentence>
+  <Sentence>
+    <Word Value="I" />
+    <Word Value="refuse" />
+    <Word Value="to" />
+    <Word Value="believe" />
+    <Word Value="it" />
+  </Sentence>
+  <Sentence>
+    <Word Value="And" />
+    <Word Value="so" />
+    <Word Value="after" />
+    <Word Value="a" />
+    <Word Value="long" />
+    <Word Value="journey" />
+    <Word Value="they" />
+    <Word Value="it" />
+    <Word Value="old" />
+    <Word Value="abandoned" />
+    <Word Value="castle" />
   </Sentence>
 </Text>
