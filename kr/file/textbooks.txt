@@ -1,0 +1,5 @@
+250,Math
+250,Physics
+220,Chemistry
+180,Biology
+2520,History

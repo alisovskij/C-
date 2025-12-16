@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchoolBag xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Item xsi:type="TextBook">
+      <Weight>180</Weight>
+      <Name>Biology</Name>
+    </Item>
+    <Item xsi:type="NoteBook">
+      <Weight>200</Weight>
+      <Pages>48</Pages>
+    </Item>
+    <Item xsi:type="NoteBook">
+      <Weight>220</Weight>
+      <Pages>52</Pages>
+    </Item>
+    <Item xsi:type="TextBook">
+      <Weight>220</Weight>
+      <Name>Chemistry</Name>
+    </Item>
+    <Item xsi:type="NoteBook">
+      <Weight>230</Weight>
+      <Pages>36</Pages>
+    </Item>
+    <Item xsi:type="NoteBook">
+      <Weight>250</Weight>
+      <Pages>24</Pages>
+    </Item>
+    <Item xsi:type="NoteBook">
+      <Weight>250</Weight>
+      <Pages>64</Pages>
+    </Item>
+    <Item xsi:type="TextBook">
+      <Weight>250</Weight>
+      <Name>Math</Name>
+    </Item>
+    <Item xsi:type="TextBook">
+      <Weight>250</Weight>
+      <Name>Physics</Name>
+    </Item>
+  </Items>
+</SchoolBag>

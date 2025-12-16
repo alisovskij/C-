@@ -1,0 +1,15 @@
+/home/artem/labs/3 sem/c #/kr/bin/Debug/net8.0/kr
+/home/artem/labs/3 sem/c #/kr/bin/Debug/net8.0/kr.deps.json
+/home/artem/labs/3 sem/c #/kr/bin/Debug/net8.0/kr.runtimeconfig.json
+/home/artem/labs/3 sem/c #/kr/bin/Debug/net8.0/kr.dll
+/home/artem/labs/3 sem/c #/kr/bin/Debug/net8.0/kr.pdb
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.GeneratedMSBuildEditorConfig.editorconfig
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.AssemblyInfoInputs.cache
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.AssemblyInfo.cs
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.csproj.CoreCompileInputs.cache
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.sourcelink.json
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.dll
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/refint/kr.dll
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.pdb
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/kr.genruntimeconfig.cache
+/home/artem/labs/3 sem/c #/kr/obj/Debug/net8.0/ref/kr.dll

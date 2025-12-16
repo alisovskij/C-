@@ -160,7 +160,6 @@ public static class CommandHandler
         }
 
         var aminoAcidsDecoded = DecodeRLE(aminoAcidsCompressed);
-
         if (!Checker(aminoAcidsDecoded, null))
         {
             Console.WriteLine($"Ошибка в строке {lineNumber}: недопустимая аминокислотная последовательность: {aminoAcidsDecoded}");

@@ -3,7 +3,7 @@ Genetic search
 
 ----------------------------------------
 001	search	SIIK
-Homo sapiens (Human)	6.8 kDa mitochondrial proteolipid
+NOT FOUND
 
 ----------------------------------------
 002	search	PLML
@@ -15,7 +15,7 @@ NOT FOUND
 
 ----------------------------------------
 004	diff	6.8 kDa mitochondrial proteolipid	Alcohol dehydrogenase
-amino-acids difference: 81
+amino-acids difference: MISSING: 6.8 kDa mitochondrial proteolipid
 
 ----------------------------------------
 005	diff	RNA-dependent RNA polymerase [Fragment]	Alcohol dehydrogenase

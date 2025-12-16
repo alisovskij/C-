@@ -5,9 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        const string sequencesFileName = "sequences.0.txt";
-        const string commandsFileName = "commands.0.txt";
-        const string outputFileName = "genedata.txt";
+        const string sequencesFileName = "sequences.2.txt";
+        const string commandsFileName = "commands.2.txt";
+        const string outputFileName = "genedata.2.txt";
 
         if (!File.Exists(sequencesFileName) || !File.Exists(commandsFileName))
         {

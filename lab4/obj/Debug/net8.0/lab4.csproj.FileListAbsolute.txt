@@ -1,0 +1,15 @@
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.AssemblyInfoInputs.cache
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.AssemblyInfo.cs
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.csproj.CoreCompileInputs.cache
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.sourcelink.json
+/home/artem/labs/3 sem/c #/lab4/bin/Debug/net8.0/lab4
+/home/artem/labs/3 sem/c #/lab4/bin/Debug/net8.0/lab4.deps.json
+/home/artem/labs/3 sem/c #/lab4/bin/Debug/net8.0/lab4.runtimeconfig.json
+/home/artem/labs/3 sem/c #/lab4/bin/Debug/net8.0/lab4.dll
+/home/artem/labs/3 sem/c #/lab4/bin/Debug/net8.0/lab4.pdb
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.dll
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/refint/lab4.dll
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.pdb
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/lab4.genruntimeconfig.cache
+/home/artem/labs/3 sem/c #/lab4/obj/Debug/net8.0/ref/lab4.dll
